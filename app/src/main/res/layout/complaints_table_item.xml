@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#bac1b8">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/userPfp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:id="@+id/userName"
+        android:layout_toRightOf="@+id/userPfp"
+        android:layout_toEndOf="@id/userPfp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="false"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/complaintText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userName"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@id/userPfp"
+        android:layout_toRightOf="@+id/userPfp"
+        android:text="Complaint"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:id="@+id/complaintTime"
+        android:layout_toRightOf="@+id/userPfp"
+        android:layout_below="@id/complaintText"
+        android:layout_toEndOf="@id/userPfp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>

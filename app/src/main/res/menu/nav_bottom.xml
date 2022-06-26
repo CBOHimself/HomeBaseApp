@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#bac1b8">
+
+    <item android:title="Profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:id="@+id/profile"/>
+
+    <item android:title="Lists"
+        android:icon="@drawable/ic_baseline_view_list_24"
+        android:id="@+id/lists"/>
+
+<!--    <item android:title="Bookings"-->
+<!--        android:icon="@drawable/main_calender"-->
+<!--        android:id="@+id/Calender"/>-->
+</menu>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#bac1b8">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/userPfp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:id="@+id/userName"
+        android:layout_toRightOf="@+id/userPfp"
+        android:layout_toEndOf="@id/userPfp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="false"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:id="@+id/phoneNo"
+        android:layout_toRightOf="@+id/userPfp"
+        android:layout_below="@id/userName"
+        android:layout_toEndOf="@id/userPfp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:id="@+id/address"
+        android:layout_toRightOf="@+id/userPfp"
+        android:layout_below="@id/phoneNo"
+        android:layout_toEndOf="@id/userPfp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:id="@+id/city"
+        android:layout_toRightOf="@+id/userPfp"
+        android:layout_below="@id/address"
+        android:layout_toEndOf="@id/userPfp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:id="@+id/country"
+        android:layout_toRightOf="@+id/userPfp"
+        android:layout_below="@id/city"
+        android:layout_toEndOf="@id/userPfp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post Code"
+        android:id="@+id/postcode"
+        android:layout_toRightOf="@+id/userPfp"
+        android:layout_below="@id/country"
+        android:layout_toEndOf="@id/userPfp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accom ID"
+        android:id="@+id/accomId"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@+id/userPfp"
+        android:layout_below="@id/postcode"
+        android:layout_toEndOf="@id/userPfp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:id="@+id/callBtn"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/userPfp"/>
+
+</RelativeLayout>

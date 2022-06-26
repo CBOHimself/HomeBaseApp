@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalyearproject">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_logo"
+        android:label="Home Base"
+        android:roundIcon="@mipmap/app_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalYearProject">
+        <activity
+            android:name=".ComplaintListViewer"
+            android:exported="false" />
+        <activity
+            android:name=".complaintsList"
+            android:exported="false" />
+        <activity
+            android:name=".AccommodationViewer"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".Accommodation" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".remainderListViewer"
+            android:exported="false" />
+        <activity
+            android:name=".remainderList"
+            android:exported="false" />
+        <activity
+            android:name=".shoppingListViewer"
+            android:exported="false" />
+        <activity
+            android:name=".shoppingList"
+            android:exported="false" />
+        <activity
+            android:name=".LogIn"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewAccount"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserProfileSettings"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
